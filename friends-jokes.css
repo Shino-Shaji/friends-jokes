@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, rgb(233, 30, 35), rgb(2, 178, 231)); /* Soft neutral background */
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 95%;
+  text-align: center;
+}
+
+h1 {
+  color: #000;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+/* Friends color dots */
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+.red { background-color: rgb(233, 30, 35); }
+.blue { background-color: rgb(2, 178, 231); }
+.yellow { background-color: rgb(250, 188, 22); }
+
+button {
+  background-color: rgb(2, 178, 231); /* Friends blue */
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: rgb(1, 140, 180);
+}
+
+#demo {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  color: #444;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
